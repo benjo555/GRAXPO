@@ -1,0 +1,153 @@
+@media(min-width:576px){
+    /* SM breakpoint*/
+    .main{
+        margin-bottom: 60px !important;
+    }
+    .hero{
+        margin-bottom: 70px !important;
+    }
+    .about{
+        margin-bottom: 70px !important;
+    }
+    .service{
+        margin-bottom: 70px !important;
+    }
+    .portfolio{
+        margin-bottom: 70px !important;
+    }
+    .team{
+        margin-bottom: 60px !important;
+    }
+    .blog{
+        margin-bottom: 70px !important;
+    }
+}
+
+@media(min-width: 768px){
+    /* MD breakpoint*/
+    .main{
+        margin-bottom: 84px !important;
+    }
+    .hero{
+        margin-bottom: 90px !important;
+    }
+    .hero .hero-wrapper .hero-title{
+        font-size: 35px;
+        letter-spacing: 0.7px;
+    }
+    .hero .hero-wrapper .hero-subtitle{
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .about{
+        margin-bottom: 90px !important;
+    }
+    .service{
+        margin-bottom: 80px !important;
+    }
+    .portfolio{
+        margin-bottom: 80px !important;
+    }
+    .team{
+        margin-bottom: 80px !important;
+    }
+    .blog{
+        margin-bottom: 90px !important;
+    }
+    .blog .blog-item .blog-title:after{
+        margin-inline: 0;
+    }
+}
+
+
+@media(min-width: 992px){
+    /* LG breakpoint*/
+    header .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 10px;
+    }
+    .hero{
+        margin-bottom: 114px !important;
+    }
+    .about{
+        margin-bottom: 128px !important;
+    }
+    .about .about-title{
+        text-align: left;
+    }
+    .about .about-item{
+        text-align: left;
+    }
+    .about .container .row div:first-of-type{
+        padding-right: 76px;
+    }
+    .about .about-item .section-title:after{
+        margin-inline: 0;
+    }
+    .service{
+        margin-bottom: 99px !important;
+    }
+    .service .container > .row > div:nth-of-type(1),
+    .service .container > .row > div:nth-of-type(2){
+        margin-bottom: 35px !important;
+    }
+    .service .service-desc{
+        margin-bottom: 60px !important;
+    }
+    .service .service-item .service-icon span{
+        margin-inline: 0;
+    }
+    .service .service-item .service-item-title,
+    .service .service-item .service-item-desc{
+        text-align: left;
+    }
+    .service .service-item .service-item-title.item-title:after{
+        margin-inline: 0;
+    }
+    .portfolio{
+        margin-bottom: 101px !important;
+        padding: 138px 0 115px;
+    }
+    .portfolio .portfolio-item .portfolio-item-title{
+        text-align: left !important;
+    }
+    .portfolio .portfolio-item .portfolio-item-title:after{
+        margin-inline: 0;
+    }
+    .team .team-desc{
+        margin-bottom: 82px !important;
+    }
+    .blog{
+        margin-bottom: 120px !important;
+    }
+    .contact .contact-desc{
+        margin-bottom: 83px !important;
+
+    }
+    .contact .container > .row > div:first-of-type{
+        margin-right: 60px !important;
+    }
+}
+
+@media(min-width: 1200px){
+    /* XL breakpoint*/
+
+    .container{
+        max-width: 1170px;
+    }
+    header .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 20px;
+    }
+    .service .service-item .service-item-desc{
+        text-align: justify;
+    }
+    .blog{
+        margin-bottom: 136px !important;
+    }
+}
+
+@media(min-width: 1400px){
+    /* XXL breakpoint*/
+
+
+
+}
